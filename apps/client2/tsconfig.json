@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shared-tests": ["../../packages/shared-tests/index.js"],
+      "@utils/*": ["./utils/*"],
+      "@types": ["types.ts"]
+    },
+    "rootDir": ".",
+    "composite": true
+  },
+  "references": [
+    {"path": "../../packages/shared-tests"},
+  ],
+  "include": ["**/**/*.ts", "**/**/*.tsx"]
+}

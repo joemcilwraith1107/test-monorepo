@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@functions/*": ["src/functions/*"],
+      "@selectors": ["src/selectors.ts"],
+      "@types": ["src/types.ts"],
+      "@shared-tests": [""],
+    },
+    "rootDir": ".",
+    "outDir": "lib",
+    "composite": true
+  },
+  "include": ["**/**/*.ts", "**/**/*.tsx"]
+}

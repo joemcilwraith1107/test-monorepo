@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": ".",
+    "target": "ES6",
+    "baseUrl": ".",
+    "moduleResolution": "Node",
+    "preserveSymlinks": true
+  },
+  "references": [
+    {"path": "./packages/shared-tests"},
+  ],
+  "include": ["**/**/*.ts", "**/**/*.tsx"],
+  "exclude": ["node_modules"]
+}

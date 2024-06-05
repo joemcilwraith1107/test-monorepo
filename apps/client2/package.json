@@ -1,0 +1,13 @@
+{
+  "name": "client2",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test tests --project=Chromium",
+    "report": "playwright show-report report"
+  },
+  "dependencies": {
+    "shared-tests": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "shared-tests",
+  "private": true,
+  "description": "Shared testing functions for use across all client sites",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "exports": "./index.ts",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "dotenv": "^16.4.5"
+  }
+}
