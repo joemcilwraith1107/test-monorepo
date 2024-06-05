@@ -8,7 +8,7 @@ export default defineConfig({
   use: {
     ...base.use,
     baseURL:
-      process.env.DOMAIN,
+      "https://github.com/microsoft/playwright",
     trace: "on-first-retry",
   },
 });
